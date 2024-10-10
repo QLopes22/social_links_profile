@@ -40,6 +40,8 @@
     --spacing-150: 12px;
     --spacing-100: 8px;
     --spacing-50: 4px; 
+
+    --display-flex: () 
 }
 
 
@@ -52,8 +54,35 @@
 body {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-drk);
+    width: 100vw;
+    height: 100vh;
 }
 
 button {
     font-family: inherit;
 }
+
+.main-container {
+  background-color: var(--grey-lt);
+  width: 327px;
+  height: 579px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-300);
+  border-radius: 12px;
+  padding: var(--spacing-300); 
+}
+/* first body container */
+
+img {
+  width: 88px;
+  border-radius: 999px;
+}
+
+/*---------------------- modify main body styling and add profile img ----------------------*/
