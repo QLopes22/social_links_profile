@@ -40,8 +40,6 @@
     --spacing-150: 12px;
     --spacing-100: 8px;
     --spacing-50: 4px; 
-
-    --display-flex: () 
 }
 
 
@@ -74,6 +72,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: var(--spacing-300);
   border-radius: 12px;
   padding: var(--spacing-300); 
@@ -85,4 +84,23 @@ img {
   border-radius: 999px;
 }
 
-/*---------------------- modify main body styling and add profile img ----------------------*/
+/* second body container */
+
+h1 {
+  font-size: var(--spacing-300);
+  color: var(--white);
+}
+
+h2 {
+  font-size: 14px;
+  color: var(--green);
+}
+
+/* third body container */
+
+.bio {
+  color: var(--white);
+  font-size: 14px;
+}
+
+/*- add content and styling for 2nd & 3rd body div -*/
