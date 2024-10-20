@@ -71,7 +71,7 @@ button {
 }
 
 .main-container {
-  background-color: var(--grey-lt);
+  background-color: var(--grey-mid);
   width: 327px;
   height: 579px;
   display: flex;
@@ -110,4 +110,27 @@ h2 {
   font-size: 14px;
 }
 
-/*- add content and styling for 2nd & 3rd body div -*/
+/* fourth container */
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-200)
+}
+
+button {
+  background-color: var(--grey-lt);
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  border-style: none;
+  width: 296px;
+  height: 45px;
+  padding: var(--spacing-150) 
+}
+
+
+/*- add container 4 content and styling
+content in div 4 is not inside of the main container
+-*/
