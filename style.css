@@ -135,12 +135,25 @@ button {
   padding: var(--spacing-150); 
 }
 
-button:hover {
-  background-color: var(--green);
-  color: black;
-  cursor: pointer;
+
+@media(width >= 375px) {
+  
+  .main-container {
+    width: 456px;
+    height: 611px;
+  }
+  
 }
 
-/*- add container 4 content and styling
-content in div 4 is not inside of the main container
--*/
+
+@media(width >= 768px) {
+  
+  button:hover {
+    background-color: var(--green);
+    color: black;
+    cursor: pointer;
+  }
+
+}
+
+/* mobile design done start with the desktop and maybe tablet */
