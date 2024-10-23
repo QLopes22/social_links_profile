@@ -49,9 +49,7 @@
 }
 
 
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
 }
 
@@ -94,7 +92,7 @@ img {
 /* second body container */
 
 h1 {
-  font-size: var(--spacing-300);
+  font-size: 24px;
   color: var(--white);
   margin: 0;
 }
@@ -120,7 +118,7 @@ p {
 .links {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-200)
+  gap: var(--spacing-200);
 }
 
 button {
@@ -135,18 +133,26 @@ button {
   padding: var(--spacing-150); 
 }
 
+/* Tablet */
+@media(width >= 376px) {
 
-@media(width >= 375px) {
-  
   .main-container {
     width: 456px;
     height: 611px;
+    padding: var(--spacing-500);
   }
+
+
+button {
+  font-size: 14px;
+  width: 376px;
+  padding: var(--spacing-150); 
+}
   
 }
 
-
-@media(width >= 768px) {
+/* Desktop */
+@media(width >= 769px) {
   
   button:hover {
     background-color: var(--green);
@@ -156,4 +162,4 @@ button {
 
 }
 
-/* mobile design done start with the desktop and maybe tablet */
+/* mobile and tablet design done start with the desktop */
