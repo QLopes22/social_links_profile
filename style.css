@@ -143,17 +143,25 @@ button {
   }
 
 
-button {
-  font-size: 14px;
-  width: 376px;
-  padding: var(--spacing-150); 
-}
+  button {
+    width: 376px;
+  }
   
 }
 
 /* Desktop */
 @media(width >= 769px) {
   
+  .main-container {
+    width: 384px;
+    height: 611px;
+  }
+
+  button {
+    width: 304px;
+    height: 45px;
+  }
+
   button:hover {
     background-color: var(--green);
     color: black;
@@ -161,5 +169,3 @@ button {
   }
 
 }
-
-/* mobile and tablet design done start with the desktop */
